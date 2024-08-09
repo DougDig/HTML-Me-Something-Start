@@ -1,1 +1,59 @@
-/* Write your CSS here! */
+
+body {
+    color: white;
+    background-image: url('https://64.media.tumblr.com/90d14bc3c54a3daabd04bc8e61cc295a/tumblr_inline_n258ovpRe81qhwjx8.gif');
+    background-repeat: repeat-xy;
+    margin: 8px;
+    display:block;
+    }
+article {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        animation-name: woops;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+      }
+      
+      @keyframes woops {
+        0%   {font-size: 80px; color:red; left:0px; top:0px;}
+        25%  {color:yellow; left:200px; top:0px;}
+        50%  {color:blue; left:400px; top:200px;}
+        75%  {color:green; left:600px; top:200px;}
+        100% {color:red; left:800px; top:0px;}
+      
+}
+img {
+    position: relative;
+    animation-name: hank;
+    animation-duration:  7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes hank {
+    0% {left:0px; top:0px;}
+    100% {left:1200px; top:700px}
+    
+}
+"color: green;"
+"color: red;"
+#mainHeading{
+    color:red;
+    position: relative;
+    animation-name: header;
+    animation-duration:  27s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes header {
+    0% {left:0px; top:0px;}
+    100% {font-size:200px; left:300px; top: 700px;}
+}
+
+.funParagraph {
+    color: yellowgreen;
+}
